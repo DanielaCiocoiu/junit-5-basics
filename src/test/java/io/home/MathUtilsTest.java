@@ -20,6 +20,6 @@ class MathUtilsTest {
 	void testComputeCircleArea() {
 		MathUtils mathUtils  = new MathUtils();
 		
-		assertEquals(314.159, mathUtils.computeCircleArea(10), "Should return right circle area");
+		assertEquals(314.1592653589793, mathUtils.computeCircleArea(10), "Should return right circle area");
 	}
 }
